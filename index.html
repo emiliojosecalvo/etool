@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -309,4 +310,297 @@
     //     c.height = document.querySelector('.container').clientHeight;
     // }
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Emilio's Tools</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            letter-spacing: 4px;
+            font-size: 3em;
+            text-transform: uppercase;
+            color: #d3eedd;
+            line-height: 8rem;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        /* input {
+            font-size: 1.2rem;
+            border-width: 2px;
+            border-color: #024927;
+            border-radius: 10em;
+        } */
+
+        button {
+            background: none;
+            color: #024927;
+            font-weight: 600;
+            border: 0.2em solid #024927;
+            border-radius: 10em;
+            padding: 0.3rem;
+            transition: all 0.25s;
+        }
+
+        button:hover {
+            border-color: #04954d;
+            color: #04954d;
+            box-shadow: 0 0.5em 0.5em -0.4em #04954d;
+            transform: translateY(-0.25em);
+        }
+
+        .container {
+            position: relative;
+            overflow: hidden;
+            color: #04954d;
+        }
+
+        /* .search {
+            width: 80%;
+            margin: 1rem auto;
+            display: flex;
+            justify-content: center;
+        } */
+
+        .elcont {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .minicont {
+            border: 2px solid #04954d;
+            border-radius: 2%;
+            width: 31%;
+            margin: 1%;
+            background-color: #010000c9;
+        }
+
+        .minicont h3 {
+            text-align: center;
+        }
+
+        .elcont ul {
+            list-style: none;
+        }
+
+        .elcont li a {
+            text-decoration: none;
+            color: #04954d;
+        }
+
+        /* Small */
+        @media (max-width: 576px) {
+            h1 {
+                /* color: yellow;0.3.020 */
+                font-size: 2rem;
+                line-height: 2.5em;
+            }
+
+            .elcont {
+                width: 100%;
+                display: block;
+            }
+
+            .minicont {
+                width: 80%;
+                margin: 2% auto;
+            }
+
+        }
+
+        /* Medium */
+        @media (min-width: 577px) and (max-width: 768px) {
+            h1 {
+                /* color: orange; */
+            }
+        }
+
+        4
+
+        /* Large */
+        @media (min-width: 769px) and (max-width: 992px) {
+            h1 {
+                /* color: red; */
+            }
+        }
+
+        /* X-Large */
+        @media (min-width: 993px) {
+            h1 {
+                /* color: blue; */
+            }
+        }
+
+
+        #c {
+            position: absolute;
+            display: inline;
+            width: 100%;
+            height: max-content;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="c"></canvas>
+    <div class="container">
+        <header>
+            <h1>Emilio's Tools</h1>
+        </header>
+        <!-- looks for info in Mozzila developer network -->
+        <!-- <div class="search">
+            <form action="https://developer.mozilla.org/search">
+                <input type="text" name="q" required>
+                <button>Search MDN</button>
+            </form>
+       0     <form action="https://google.com/search">
+   4             <input type="text" name="q" required>
+                <button>Search Google</button>
+            </form>
+        </div> -->
+        <div class="elcont">
+            <div class="minicont">
+                <h3>Downloads</h3>
+                <ul>
+                    <li><a href="https://www.google.com/chrome/" target="_blank">Chrome</a>
+                    </li>
+                    <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+                    <li>Visual Studio Tools</li>
+                    <ul>
+                        <li><a href="https://docs.emmet.io/cheat-sheet/" target="_blank">Emmet Cheat Sheet</a></li>
+
+                    </ul>
+                    <li>Style</li>
+                    <li><a href="https://bulma.io/" target="_blank">Bulma</a>
+                    </li>
+                    <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                    </li>
+                    <li><a href="https://materializecss.com/" target="_blank">Materialize</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="minicont">
+                <h3>CSS tools</h3>
+                <ul>
+                    <li><a href="https://htmlcolorcodes.com/color-picker/" target="_blank"
+                            title="ColorPick">ColorCode</a>
+                    </li>
+                    <li><a href="https://coolors.co/" target="_blank" title="Palet of colors">Coolors</a>
+                    </li>
+                    <li><a href="https://www.cssfontstack.com/" target="_blank">Fonts</a>
+                    </li>
+                    <li><a href="https://unsplash.com/" target="_blank" title="Free license img">Unsplash</a>
+                    </li>
+                    <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+                    </li>
+                    <li><a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">CSS reset code</a>
+                    </li>
+                    <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+                    </li>
+                    <li><a href="https://jquery.com/" target="_blank">JQuery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="minicont">
+                <h3>BackEnd</h3>
+                <ul>
+                    <li><a href="https://nodejs.org/en/" target="_blank" title="">NodeJS</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://expressjs.com/" target="_blank" title="">ExpressJs</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://ejs.co/" target="_blank" title="Embed JavaScript">EJS</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.mongodb.com/" target="_blank" title="Database">MongoDB</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://mongoosejs.com/" target="_blank" title="Mongo ODM">Mongoose</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                This is my Tool Website &copy; Emilio Calvo
+            </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+    var c = document.getElementById("c");
+    var ctx = c.getContext("2d");
+
+    //making the canvas full screen
+    c.height = window.innerHeight;
+    c.width = window.innerWidth;
+
+
+
+    //chinese characters - taken from the unicode charset
+    var chinese = "абвгдеж013579hijkl";
+    //converting the string into an array of single characters
+    chinese = chinese.split("");
+
+    var font_size = 10;
+    var columns = c.width / font_size; //number of columns for the rain
+    //an array of drops - one per column
+    var drops = [];
+    //x below is the x coordinate
+    //1 = y co-ordinate of the drop(same for every drop initially)
+    for (var x = 0; x < columns; x++)
+        drops[x] = 1;
+
+    //drawing the characters
+    function draw() {
+        //Black BG for the canvas
+        //translucent BG to show trail
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, c.width, c.height);
+
+        ctx.fillStyle = "#0F0"; //green text
+        ctx.font = font_size + "px arial";
+        //looping over drops
+        for (var i = 0; i < drops.length; i++) {
+            //a random chinese character to print
+            var text = chinese[Math.floor(Math.random() * chinese.length)];
+            //x = i*font_size, y = value of drops[i]*font_size
+            ctx.fillText(text, i * font_size, drops[i] * font_size);
+
+            //sending the drop back to the top randomly after it has crossed the screen
+            //adding a randomness to the reset to make the drops scattered on the Y axis
+            if (drops[i] * font_size > c.height && Math.random() > 0.975)
+                drops[i] = 0;
+
+            //incrementing Y coordinate
+            drops[i]++;
+        }
+    }
+
+    setInterval(draw, 33);
+>>>>>>> 45c3589c07148aecf76cdeb61dd1027df0c610f2
 </script>
