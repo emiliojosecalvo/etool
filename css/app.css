@@ -1,0 +1,108 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        .container {
+            position: relative;
+            overflow: hidden;
+            color: #04954d;
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            letter-spacing: 4px;
+            font-size: 3em;
+            text-transform: uppercase;
+            color: #d3eedd;
+            line-height: 8rem;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        button {
+            background: none;
+            color: #024927;
+            font-weight: 600;
+            border: 0.2em solid #024927;
+            border-radius: 10em;
+            padding: 0.3rem;
+            transition: all 0.25s;
+        }
+
+        button:hover {
+            border-color: #04954d;
+            color: #04954d;
+            box-shadow: 0 0.5em 0.5em -0.4em #04954d;
+            transform: translateY(-0.25em);
+        }      
+
+        .elcont {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .minicont {
+            border: 2px solid #04954d;
+            border-radius: 2%;
+            width: 31%;
+            margin: 1%;
+            background-color: #010000c9;
+        }
+
+        .minicont h3 {
+            text-align: center;
+        }
+
+        .elcont ul {
+            list-style: none;
+        }
+
+        .elcont li a {
+            text-decoration: none;
+            color: #04954d;
+        }
+
+        /* Small */
+        @media (max-width: 576px) {
+            h1 {
+                /* color: yellow;0.3.020 */
+                font-size: 2rem;
+                line-height: 2.5em;
+            }
+
+            .elcont {
+                width: 100%;
+                display: block;
+            }
+
+            .minicont {
+                width: 80%;
+                margin: 2% auto;
+            }
+
+        }
+
+        /* Medium */
+        /* @media (min-width: 577px) and (max-width: 768px) {} */
+
+        /* Large */
+        /* @media (min-width: 769px) and (max-width: 992px) {} */ 
+
+        /* X-Large */
+        /* @media (min-width: 993px) {} */ 
+
+
+        #mycanvas {
+            position: absolute;
+            display: inline;
+        }
+    
