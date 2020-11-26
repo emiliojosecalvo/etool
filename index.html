@@ -156,7 +156,7 @@
     <canvas id="c"></canvas>
     <div class="container">
         <header>
-            <h1>Emilio's Tools</h1>
+            <h1>Emilio Tools</h1>
         </header>
         <!-- looks for info in Mozzila developer network -->
         <!-- <div class="search">
@@ -585,12 +585,11 @@
 
             //incrementing Y coordinate
             drops[i]++;
+
         }
     }
 
-    if (c.width > 576) {
-        window.addEventListener('resize', reportWindowSize);
-    }
+    window.addEventListener('resize', reportWindowSize);
 
     setInterval(draw, 50);
 
